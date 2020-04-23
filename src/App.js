@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import Home from './components/Home'
@@ -12,7 +12,7 @@ function App() {
         <Route path = '/post/:id' render = {routerProps => <Post id={routerProps.match.params.id}/>} />
       </Switch>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
